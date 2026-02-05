@@ -314,6 +314,8 @@
         zone.style.display = "none";
         hint.style.display = "none"; // HIDE THE HINT
         deny.style.display = "block";
+        document.querySelector('.broken-heart').style.display = 'block';
+
         if (heading) heading.style.display = "none";
       });
 
@@ -348,6 +350,7 @@
         noBtn.style.left = "";
         noBtn.style.top = "";
         noBtn.style.transform = "";
+        document.querySelector('.broken-heart').style.display = 'none';
       });
     </script>
   </body>
