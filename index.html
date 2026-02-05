@@ -123,9 +123,21 @@
       }
 
       .fireworks {
-        width: min(380px, 90vw);
+        /* Make the fireworks image smaller and responsive */
+        width: 40%;
+        max-width: 320px;
+        height: auto;
         margin: 0 auto;
         display: block;
+      }
+
+      /* Shrink the extra GIF to 40% (60% smaller) and keep it centered */
+      #extraGif {
+        width: 40%;
+        max-width: 420px;
+        height: auto;
+        display: block;
+        margin: 10px auto;
       }
 
       .btn-container {
@@ -186,7 +198,7 @@
         <img
           id="extraGif"
           class=""
-          src="https://c.tenor.com/kutFNFXxSIsAAAAd/tenor.gif"
+          src="https://c.tenor.com/o2WNfXdy6bsAAAAC/tenor.gif"
           alt="Fireworks"
         />
       </section>
